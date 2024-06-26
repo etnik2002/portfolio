@@ -2,6 +2,7 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
+import { PinContainer, PinPerspective } from "./ui/Pin";
 
 const Experience = () => {
   return (
@@ -42,6 +43,19 @@ const Experience = () => {
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>
+              <div className="mt-4 flex justify-start gap-4">
+                  {card.links?.map((link, idx) => (
+                    <a
+                      key={idx}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block bg-purple-600 border hover:bg-purple-700 text-white py-2 px-4 rounded-lg transition duration-300 ease-in-out mb-2"
+                    >
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </Button>
