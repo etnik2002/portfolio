@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Hak Bus",
     des: "iOS, Android and Web App.",
-    img: "/p1.svg",
+    img: "/xak.png",
     iconLists: ["/genid.svg","/re.svg","/java.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/dock.svg"],
     link: "https://www.hakbus.org",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Insylink POS system",
     des: "Point of sale platform for your restaurant and coffee shop.",
-    img: "/p2.svg",
+    img: "/insylinkimage.jpg",
     iconLists: ["/genid.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/c.svg"],
     link: "https://www.insylink.com",
   },
@@ -90,18 +90,11 @@ export const projects = [
     id: 3,
     title: "Am Gmbh",
     des: "Willkommen in unserem Hausputz Service.",
-    img: "/p3.svg",
+    img: "/am.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/prisma-16-svgrepo-com.svg"],
     link: "https://am-gmbh.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+
 ];
 
 export const testimonials = [
